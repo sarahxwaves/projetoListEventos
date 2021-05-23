@@ -1,0 +1,161 @@
+
+body{
+    height: 100%;
+  background: url('../img/login2.png');
+
+  padding: 0%;
+
+
+}
+
+ *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    color: #000000;
+}
+
+main form .password-container #eye {
+       display: none;
+   }
+
+   main form .password-container {
+        margin-top: 0%;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   main form .password-container i{
+        position:absolute;
+        right: 8%;
+        top: 30%;
+        color: #777;
+        cursor: pointer;
+    }
+
+main form .links-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    main form .links-container span {
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+
+    main form .links-container aside {
+        margin-top: 5%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+main form .links-container aside i {
+        font-size: 1.4em;
+        background-color: #fff;
+        padding: 8px;
+        height: 30px;
+        width: 30px;
+        border-radius: 20px;
+        transition: 0.3 ease-in-out;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+main form .links-container aside .google{
+        color: #e34133;
+    }
+
+    main form .links-container aside .google:hover{
+        background-color:#e34133;
+        color: #fff;
+    }
+
+    main form .links-container aside .facebook{
+        color: #14a0f9;
+    }
+
+    main form .links-container aside .facebook:hover{
+        background-color:#14a0f9;
+        color: #fff;
+    }
+
+    main form .links-container aside .linkedin{
+        color: #0a66c2;
+    }
+
+    main form .links-container aside .linkedin:hover{
+        background-color:#0a66c2;
+        color: #fff;
+    }
+
+    main form .password-infos a {
+        transition: 0.2s ease-in-out;
+    }
+
+    main form .password-infos a:hover{
+        color: #00CED1;
+    }
+
+    main form {
+       margin-top: 0%;
+       margin-left: 20%;
+       width: 60%;
+       height: 80vh;
+       background-color: #F5F5F5;
+       box-shadow: 0px 3px 4px rgba(0,0,0, 0.4) inset 0px 4px 4px rgba(0,0,0, 0.25);
+
+        border-radius: 18px;
+        padding: 2%;
+
+        display: flex;
+
+        flex-direction: column;
+        align-items: center;
+   }
+
+   main form .inputs-container {
+       margin-top: 7%;
+       width: 70%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       color:#fff;
+   }
+
+   main form .inputs-container input {
+        width: 70%;
+        height: 60px;
+        padding: 8px 15px;
+        border: 0;
+        outline: 0;
+        border-radius: 12px ;
+        font-size: 16px;
+        color: #312e42;
+        box-shadow: 0px 3px 3px rgba(0,0,0, 0.25);
+    }
+
+     main form  span {
+       font-weight: 400;
+       font-size: 0.9em;
+       margin-top: 3%;
+   }
+
+   main form  a {
+     font-weight: 500;
+         font-size: 1.0em;
+        transition: 0.2s ease-in-out;
+    }
+    main form  a:hover {
+        color: #00CED1;
+
+    }
